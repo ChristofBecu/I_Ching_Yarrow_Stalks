@@ -110,9 +110,14 @@ end
 
 end # of Class Hexagram
 
-
 hex = Hexagram.new
 hex.drawHexagram
 hex.printTrigrams
 hex.printMovingLines
 
+h = Hexagram.new
+h.drawHexagram
+h.printTrigrams
+h.printMovingLines
+
+# end
